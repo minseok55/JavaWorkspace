@@ -42,7 +42,7 @@ public class _07_TypeCasting {
         System.out.println(s2); // 98.8
 
         // 문자열을 숫자로
-        int i = Integer.parseInt("93");
+        int i = Integer.parseInt("93"); // Integer.parseInt 정수로 변환
         System.out.println(i); // 93
         double d = Double.parseDouble("98.8");
         System.out.println(d); // 98.8
