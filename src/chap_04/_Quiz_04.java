@@ -19,13 +19,15 @@ package chap_04;
 - 경차 5시간 주차 시 10000원
     주차 요금은 10000원 입니다.
 - 장애인 차량 10시간 주차 시 15000원 입니다.
+
+// 최종결과 주차 요금은 XX 원입니다.
 */
 
 public class _Quiz_04 {
     public static void main(String[] args) {
-        int hour = 5; // 주차시간
+        int hour = 10; // 주차시간
         boolean isSmallCar = false; // 경차 여부
-        boolean withDisabledPerson = false; // 장애인 차량 여부
+        boolean withDisabledPerson = true; // 장애인 차량 여부
 
         int fee = hour * 4000; // 주차 정산 요금 (시간당 4000원 곱하기)
 
