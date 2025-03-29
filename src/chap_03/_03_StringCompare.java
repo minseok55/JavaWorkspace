@@ -24,6 +24,6 @@ public class _03_StringCompare {
         System.out.println(s1.equals(s2)); // true (내용)
         System.out.println(s1 == s2); // false (참조)
         // s1의 변수와 s2의 변수는 서로 다른 메모리공간에 각각 저장 되어있음
-        // Java 에서 일반적으로 문자열의 내용을 비교할 경우 equals 사용
+        // Java 에서 일반적으로 문자열의 내용을 비교할 경우 .equals 사용
     }
 }

@@ -24,7 +24,7 @@ public class _02_String2 {
         System.out.println(s1 + s2); // JavaPython
         System.out.println(s1 + "," + s2); // Java,Python
         System.out.println(s1.concat(",").concat(s2)); //Java,Python
-        // s1 문자열에 "," 를 더하기 * .concat() 괄호 안의 문자 및 변수를 더하기
+        // s1 문자열에 "," 를 더하기 * .concat() 괄호 안의 문자 및 변수를 더함
 
 
     }

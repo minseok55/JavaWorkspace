@@ -17,7 +17,7 @@ public class _Quiz_03 {
     public static void main(String[] args) {
         String resident = "870505-1234567"; // 주민등록번호 13자리
         System.out.println(resident.substring(0, 8)); // 0 위치부터 8 위치 직전까지
-        resident = "030708-4567890";
+        resident = "030708-4567890"; // 새로운 주민등록번호 입력
         System.out.println(resident.substring(0, resident.indexOf("-") + 2)); // 0 위치부터 하이픈 위치 + 2 직전까지
     }
 }

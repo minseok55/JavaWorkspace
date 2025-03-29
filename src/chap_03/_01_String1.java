@@ -17,7 +17,7 @@ public class _01_String1 {
         System.out.println(s.contains("Java")); // () 안의 문자가 포함된다면 true / contains
         System.out.println(s.contains("C#")); // 포함되지 않는다면 false
         System.out.println(s.indexOf("Java")); // 위치 정보 7 , ()안의 문자열이 시작되는 위치 (J) / indexOf
-        // 컴퓨터에서 문자열 시작 위치는 1이 아니라 0 부터 시작
+        // 컴퓨터에서 문자열 시작 위치는 1이 아니라 0 부터 시작 함
         System.out.println(s.indexOf("C#")); // 포함되지 않는다면 -1
         System.out.println(s.indexOf("and")); // () 안의 같은 문자열이 여러개 인 경우 처음 일치하는 위치 정보 (12)
         System.out.println(s.lastIndexOf("and")); // 같은 문자열 중 마지막에 일치하는 위치 정보 (23) / lastIndexOf

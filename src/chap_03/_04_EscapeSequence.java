@@ -15,9 +15,9 @@ public class _04_EscapeSequence {
         // 해물파전    9000원
         // 김치전      8000원
         // 부추전      8000원
-        System.out.println("해물파전\t\t9000원");
-        System.out.println("김치전\t\t8000원");
-        System.out.println("부추전\t\t8000원");
+        System.out.println("해물파전\t9000원"); // \t\t 가능
+        System.out.println("김치전\t8000원");
+        System.out.println("부추전\t8000원");
 
         // \\ : 역슬래시
         System.out.println("C:\\Program Files\\Java"); // windows os 기준 파일 경로를 표시

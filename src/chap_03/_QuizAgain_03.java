@@ -20,7 +20,7 @@ public class _QuizAgain_03 {
         String s2 = "920101-2345678";
 
         System.out.println(s1.substring(0, 8)); // 0 위치부터 8위치 직전까지
-        // indexOf 를 사용한 방법
+        // s2에 저장된 변수를 indexOf 를 사용한 방법
         System.out.println(s2.substring(0, s2.indexOf("-") + 2)); // 0 위치부터 "-" 뒤로 +2 위치 까지("-"의 위치는 고정)
     }
 }
