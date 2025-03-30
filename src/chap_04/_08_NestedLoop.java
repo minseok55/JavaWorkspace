@@ -104,14 +104,14 @@ public class _08_NestedLoop {
 
         for (int i = 2; i <= 9; i++) {
             for (int j = 0; j <= 9; j++) {
-                System.out.println(i + " x " + j + " = " + i * j);
+                System.out.println(i + " x " + j + " = " + (i * j));
             }
         }
         System.out.println("---------특정 단수 입력 구구단----------");
         int dan = 5;
         for (int i = dan; i <= dan; i++) {
             for (int j = 1; j <= 9; j++) {
-                System.out.println(i + " x " + j + " = " + dan * j);
+                System.out.println(i + " x " + j + " = " + (dan * j));
             }
         }
     }
