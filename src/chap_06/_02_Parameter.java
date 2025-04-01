@@ -1,6 +1,11 @@
 package chap_06;
 
 public class _02_Parameter {
+    // method = 자판기, parameter = 자판기에 넣는 버튼 정보
+    // parameter = 메서드야 이걸로 일좀 해줘! 하는 값
+    // parameter 메서드가 동작할 때 필요한 정보를 외부에서 넘겨주는 것
+    // parameter = 매개변수
+
     // 전달값이 있는 메소드
     public static void power(int number) { // Parameter , 매개변수
         int result = number * number;
@@ -17,7 +22,7 @@ public class _02_Parameter {
 
     public static void main(String[] args) {
         // 전달값, Parameter
-        // 거듭제곱 계산 메소드
+        // 거듭제곱 계산 메서드
         // 2 -> 2 * 2 = 4
         // 3 -> 3 * 3 = 9
 
