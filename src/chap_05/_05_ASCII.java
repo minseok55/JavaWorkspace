@@ -3,6 +3,7 @@ package chap_05;
 public class _05_ASCII {
     public static void main(String[] args) {
         // 아스키 코드 (ANSI) : 미국 표준 코드
+        // 아스키 코드는 하나의 문자이기 때문에 char 로 만들면 됨
         char c = 'A'; // 알파벳 대문자(A)는 65 부터 시작, 소문자(a)는 97부터 시작, 숫자(0)는 48부터 시작.
         System.out.println(c);
         System.out.println((int) c);
@@ -22,6 +23,7 @@ public class _05_ASCII {
         for (int i = 0; i < seats3.length; i++) { // 세로
             for (int j = 0; j < seats3[i].length; j++) { // 가로
                 seats3[i][j] = String.valueOf(ch) + (j + 1);
+                // String.valueOf(ch) = char 의 ch를 문자열로 변환
             }
             ch++;
         }
