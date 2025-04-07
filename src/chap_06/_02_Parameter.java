@@ -12,10 +12,10 @@ public class _02_Parameter {
         System.out.println(number + " 의 2 승은 " + result);
     }
 
-    public static void powerByExp(int number, int exponent) {
+    public static void powerByExp(int number, int exponent) { // 2개이상 의 경우
         int result = 1;
         for (int i = 0; i < exponent; i++) {
-            result *= number;
+            result *= number; // result = result * number;
         }
         System.out.println(number + " 의 " + exponent + " 승은 " + result);
     }
@@ -32,6 +32,6 @@ public class _02_Parameter {
 
         powerByExp(2, 3); // 2 * 2 * 2 = 8
         powerByExp(3, 3); // 3 * 3 * 3 = 27
-        powerByExp(10, 0); // 1
+        powerByExp(10, 0); // 1 // 어떤 수의 0승은 항상 1이 됨
     }
 }
