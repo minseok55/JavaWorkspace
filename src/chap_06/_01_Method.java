@@ -23,5 +23,10 @@ public class _01_Method {
         sayHello();
         sayHello();
         System.out.println("메소드 호출 후");
+
+        // for 문을 이용해서 반복 호출
+        for (int i = 1; i <= 10; i++) {
+            sayHello();
+        }
     }
 }
